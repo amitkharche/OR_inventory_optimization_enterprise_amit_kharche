@@ -3,6 +3,29 @@
 
 Optimize inventory levels by minimizing total cost using the classic EOQ formula.
 
+## 📘 Business Use Case
+
+Inventory optimization using EOQ is essential for:
+- **Minimizing total inventory cost** (ordering + holding)
+- **Avoiding stockouts** while preventing overstocking
+- **Streamlining procurement cycles** for better planning
+
+This system allows:
+- Strategic planners to simulate reorder plans
+- Developers to integrate optimization via API
+- Operations teams to be alerted on critical stock levels
+
+---
+
+## 🧪 Sample CSV Format
+
+```csv
+Item,AnnualDemand,OrderingCost,HoldingCost
+A,1000,50,2
+B,500,40,1.5
+C,800,30,2.2
+```
+
 ## Features
 - Upload inventory CSV (demand, ordering cost, holding cost)
 - Get EOQ, reorder frequency, total cost
@@ -102,31 +125,6 @@ You can trigger this after EOQ optimization or during monitoring scripts.
 
 ---
 
-## 📘 Business Use Case
-
-Inventory optimization using EOQ is essential for:
-- **Minimizing total inventory cost** (ordering + holding)
-- **Avoiding stockouts** while preventing overstocking
-- **Streamlining procurement cycles** for better planning
-
-This system allows:
-- Strategic planners to simulate reorder plans
-- Developers to integrate optimization via API
-- Operations teams to be alerted on critical stock levels
-
----
-
-## 🧪 Sample CSV Format
-
-```csv
-Item,AnnualDemand,OrderingCost,HoldingCost
-A,1000,50,2
-B,500,40,1.5
-C,800,30,2.2
-```
-
----
-
 ## 🛠 Tech Stack
 
 - Python
@@ -135,3 +133,12 @@ C,800,30,2.2
 - Pandas
 - Uvicorn
 - Docker (optional)
+
+---
+## Contact
+
+If you have questions or want to collaborate, feel free to connect with me on
+- [LinkedIn](https://www.linkedin.com/in/amit-kharche)  
+- [Medium](https://medium.com/@amitkharche14)  
+- [GitHub](https://github.com/amitkharche)
+---
